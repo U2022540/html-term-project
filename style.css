@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'NanumSquare', san-serif;
+}
+p{
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+  color: red;
+  letter-spacing:-0.05em;
+  word-spccing:0.3em;}
+p.subtitle {
+  font-family:'Noto Sans KR', sans-serif; 
+}
+.main-text {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  word-spacing: 0.2em;
+  line-height: 1.3em;
+}
+ .div-margin {
+  width:500px;
+  margin: 0 auto;
+}
+.div-pad {
+  padding: 15px 30px 40px 50px;
+}
+.box-a {
+  width: 100px;
+  height: 100px;
+  background-color:red;
+}
+.box-b {
+  width: 100px;
+  height: 100px;
+  background-color:green;
+}
+.box-c {
+  width:100px;
+  height:100px;
+  background-color:blue;
+}

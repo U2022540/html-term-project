@@ -1,73 +1,90 @@
+
 <!DOCTYPE html>
-<html>
+
+<!DOCTYPE html>
+<html lang="ko-KR">
+<!--언어코드:en-US or ko-KR-->
 
 <head>
   <meta charset="utf-8">
-  <title>Term Project</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--fonts, css -->
-  <link type="text/css" rel="stylesheet" href="style.css">
+  <title>CSS를 배워 봅시다.</title>
+  <!--css, font-->
+  <link type="text/css" rel="stylesheet" href="./style.css">
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
 </head>
+  <body>
+  <h1>별 헤는 밤</h1>
+    <p>국가는 재해를 예방하고 그 위험으로부터 국민을 보호하기 위하여 노력하여야 한다. 모든 국민은 헌법과 법률이 정한 법관에 의하여 법률에 의한 재판을 받을 권리를 가진다. 대법관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다. 대통령은 국가의 안위에 관계되는 중대한 교전상태에 있어서 국가를 보위하기 위하여 긴급한 조치가 필요하고 국회의 집회가 불가능한 때에 한하여 법률의 효력을 가지는 명령을 발할 수 있다.
 
-<body>
-	<div class="m_top">
-			<div class="util">				
-				<a href="/login/login.do" title="로그인">로그인</a>
+국회는 국무총리 또는 국무위원의 해임을 대통령에게 건의할 수 있다. 모든 국민은 직업선택의 자유를 가진다. 대통령은 내우·외환·천재·지변 또는 중대한 재정·경제상의 위기에 있어서 국가의 안전보장 또는 공공의 안녕질서를 유지하기 위하여 긴급한 조치가 필요하고 국회의 집회를 기다릴 여유가 없을 때에 한하여 최소한으로 필요한 재정·경제상의 처분을 하거나 이에 관하여 법률의 효력을 가지는 명령을 발할 수 있다.</p>
+</body>
+  
+
+</html>
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?1" />
+<link rel="stylesheet" type="text/css" href="/css/common.css?v=1669648292016">
+<link rel="stylesheet" type="text/css" href="/css/pay.css?v=1669648292016">
+<link rel="stylesheet" type="text/css" href="/css/normalize.css?v=1669648292016">
+<link rel="stylesheet" type="text/css" href="/plugin/jquery-ui/jquery-ui.min.css?v=1669648292016">
+<link rel="stylesheet" type="text/css" href="/plugin/css/perfect-scrollbar.min.css?v=1669648292016">
+
+
+	<div class="main_t">
+		<div class="m_top">
+			<div class="util">
+				
+				
+					<a href="/login/login.do" title="로그인">로그인</a>
 					<span>|</span>
 					<a title="회원가입" id="joinSSO">회원가입</a>
+				
 			</div>
+
 			<div class="ci">
 				<h1>
-					<a href="/"><img src="/images/global/ci.png" width="150" height="65" alt="CI"></a>
+					<a href="/"><img src="/images/global/ci.png" width="150" height="65" alt="CI" /></a>
 				</h1>
 			</div>
+
 			<form id="mainSearchForm" method="post">
 				<div class="search">
-					<label><input type="text" name="keyword" autocomplete="off" placeholder="" maxlength="20">
+					<label><input type="text" name="keyword" autocomplete=off placeholder="" maxlength="20" />
 					<button type="submit" class="btn img search">검색</button></label>
 				</div>
+
 				<div class="keywordMgt" style="display:none;">
 					<ul>
+					
+
 						<li style="margin-top:5px;"><a href="#">파리바게뜨</a></li>
-			  		<li style="margin-top:5px;"><a href="#">던킨도너츠</a></li>
+					
+
+						<li style="margin-top:5px;"><a href="#">던킨도너츠</a></li>
+					
+
 						<li style="margin-top:5px;"><a href="#">세트</a></li>
+					
 					</ul>
 				</div>
 			</form>
-		</div><div class="main_t">
+
+			
 		</div>
+	</div>
+
+	
 <div id="wrap">
 	<div class="gnb_wrap">
 		<div class="gnb">
 			<ul class="nav">
 				<li>
-				<h2><a href="/theme/main.do" class="test">테마샵</a></h2>
-			<ul>
-				<li><a href="/theme/main.do?themeSeq=1481">파리바게뜨 세트상품!</a></li>
-			</ul>
-			<ul>
-				<li><a href="/theme/main.do?themeSeq=1581">던킨도너츠 세트상품!</a></li>
-			</ul>
-			<ul>
-				<li><a href="/theme/main.do?themeSeq=1631">파리크라상 세트상품!</a></li>	
-		  </ul>
-				<ul>
-			  <li class="shop"><a href="/theme/main.do" title="">테마샵 전체보기+</a></li>
-				</ul>	
-				</li>
-				<li><h2><a href="/brand/main.do" class="test">브랜드샵</a></h2>			
-				<ul>						
-				<li><a href="/brand/main.do?brandSeq=1474297546090059">파리바게뜨</a></li></ul>
-				<ul>				
-												<li><a href="/brand/main.do?brandSeq=1474297546090049">배스킨라빈스</a></li>
-											
-										</ul>							
+			   <h2><href="/theme/main.do" class="test" >테마샵</a></h2>	
 							<ul>
 											
 											
 											
-												<li><a href="/brand/main.do?brandSeq=1474297546090042">던킨도너츠</a></li>
+												<li><a href="/theme/main.do?themeSeq=1481" >파리바게뜨 세트상품!</a></li>
 											
 										</ul>
 									
@@ -77,7 +94,7 @@
 											
 											
 											
-												<li><a href="/brand/main.do?brandSeq=1474297546090064">파스쿠찌</a></li>
+												<li><a href="/theme/main.do?themeSeq=1581" >던킨도너츠 세트상품!</a></li>
 											
 										</ul>
 									
@@ -87,17 +104,293 @@
 											
 											
 											
-												<li><a href="/brand/main.do?brandSeq=1474297546090063">파리크라상</a></li>
+												<li><a href="/theme/main.do?themeSeq=1631" >파리크라상 세트상품!</a></li>
 											
 										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								 
+									
+										<ul>
+											<li class="shop"><a href="/theme/main.do" title="">테마샵 전체보기+</a></li>
+										</ul>
+									
+									
+								</li>
+						
+						
+					
+				
+					
+					
+					
+						
+						
+							
+						
+					
+				
+					
+					
+					
+						
+						
+							
+						
+					
+				
+					
+					
+					
+						
+						
+							
+						
+					
+				
+					
+					
+					
+						
 
+							<li>
+									<h2>
+										<a href="/brand/main.do" class="test" >브랜드샵</a>
+									</h2>
+								 
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+												<li><a href="/brand/main.do?brandSeq=1474297546090059" >파리바게뜨</a></li>
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+												<li><a href="/brand/main.do?brandSeq=1474297546090049" >배스킨라빈스</a></li>
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+												<li><a href="/brand/main.do?brandSeq=1474297546090042" >던킨도너츠</a></li>
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+												<li><a href="/brand/main.do?brandSeq=1474297546090064" >파스쿠찌</a></li>
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+												<li><a href="/brand/main.do?brandSeq=1474297546090063" >파리크라상</a></li>
+											
+										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								
+									
+										<ul>
+											
+											
+											
+										</ul>
+									
+								 
+									
+									
 										<ul>
 											<li class="shop"><a href="/brand/main.do" title="">브랜드샵 전체보기+</a></li>
 										</ul>
 									
 								</li>
 						
-				
+						
+					
 				
 					
 					
@@ -151,7 +444,7 @@
 
 							<li>
 									<h2>
-										<a href="/board/notice/list.do" class="test">고객센터</a>
+										<a href="/board/notice/list.do" class="test" >고객센터</a>
 									</h2>
 								 
 									
@@ -229,7 +522,7 @@
 											
 											
 											
-												<li><a href="/board/notice/list.do">공지사항</a></li>
+												<li><a href="/board/notice/list.do" >공지사항</a></li>
 											
 										</ul>
 									
@@ -239,7 +532,7 @@
 											
 											
 											
-												<li><a href="/board/faq/list.do">FAQ</a></li>
+												<li><a href="/board/faq/list.do" >FAQ</a></li>
 											
 										</ul>
 									
@@ -249,7 +542,7 @@
 											
 											
 											
-												<li><a href="javascript:void(callVOC('QNA'))">1:1 문의</a></li>
+												<li><a href="javascript:void(callVOC(&#039;QNA&#039;))" >1:1 문의</a></li>
 											
 										</ul>
 									
@@ -259,7 +552,7 @@
 											
 											
 											
-												<li><a href="javascript:void(callVOC('MyVOC'))">My VOC</a></li>
+												<li><a href="javascript:void(callVOC(&#039;MyVOC&#039;))" >My VOC</a></li>
 											
 										</ul>
 									
@@ -332,7 +625,7 @@
 
 							<li>
 									<h2>
-										<a href="/event/main.do" class="test">이벤트</a>
+										<a href="/event/main.do" class="test" >이벤트</a>
 									</h2>
 								 
 									
@@ -444,7 +737,7 @@
 											
 											
 											
-												<li><a href="/event/main.do">이벤트</a></li>
+												<li><a href="/event/main.do" >이벤트</a></li>
 											
 										</ul>
 									
@@ -454,7 +747,7 @@
 											
 											
 											
-												<li><a href="/event/win/list.do">당첨자발표</a></li>
+												<li><a href="/event/win/list.do" >당첨자발표</a></li>
 											
 										</ul>
 									
@@ -601,13 +894,13 @@ $(function(){
 });
 </script>
 
-<div class="quick" style="top: 30px;">
+<div class="quick">
 
 <ul class="history">
 <li class="q_recent">최근본 상품</li>
-<li class="pro"><a href="/goods/detail.do?goodsNo=1656437651217959"><img src="/file/image/202206291022523104" alt="상큼한 블루베리 쉬폰 케이크" width="100%" height="100%"></a></li><li class="pro last"><a href="/goods/detail.do?goodsNo=1669056735210319"><img src="/file/image/202211231855003239" alt="[22년X-mas] 몰래온 산타 케이크" width="100%" height="100%"></a></li></ul>
+</ul>
 <ul>
-<li><a href="/theme/main.do" title=""><img src="/images/global/q_theme.png" alt="테마샵"></a></li>
+<li><a href="/theme/main.do" title=""><img src="/images/global/q_theme.png" alt="테마샵" /></a></li>
 </ul>
 </div>
 
@@ -634,7 +927,7 @@ $(function(){
 			<div class="prd_detail">
 				<div class="prd_img">
 					
-						<img src="/file/image/202206291022573104" alt="상큼한 블루베리 쉬폰 케이크">
+						<img src="/file/image/202206291022573104" alt='상큼한 블루베리 쉬폰 케이크' />
 					
 				</div>
 				<div class="prd_cont">
@@ -648,8 +941,8 @@ $(function(){
 						<tr>
 							<th scope="row" colspan="2">
 								<span class="goodsName">상큼한 블루베리 쉬폰 케이크</span>
-								<a target="_blank" title="트위터" id="shareTwitter"><img src="/images/details/dt_twt.png" alt="트위터바로가기"></a>
-								<a title="페이스북" id="shareFacebook"><img src="/images/details/dt_fb.png" alt="페이스북바로가기"></a>
+								<a target="_blank" title="트위터" id="shareTwitter"><img src="/images/details/dt_twt.png" alt="트위터바로가기" /></a>
+								<a title="페이스북" id="shareFacebook"><img src="/images/details/dt_fb.png" alt="페이스북바로가기" /></a>
 							</th>
 						</tr>
 						</thead>
@@ -684,11 +977,11 @@ $(function(){
 											
 												
 												파리바게뜨
-												<input type="hidden" name="brandName0" value="파리바게뜨">
-												<input type="hidden" name="goodsName0" value="상큼한 블루베리 쉬폰 케이크">
-												<input type="hidden" name="usePlaceLimit0" value="">
-												<input type="hidden" name="usePlaceDelimit0" value="">
-												<input type="hidden" name="useLimitPlace0" value="">
+												<input type="hidden" name="brandName0" value='파리바게뜨'/>
+												<input type="hidden" name="goodsName0" value='상큼한 블루베리 쉬폰 케이크'/>
+												<input type="hidden" name="usePlaceLimit0" value=''/>
+												<input type="hidden" name="usePlaceDelimit0" value=''/>
+												<input type="hidden" name="useLimitPlace0" value=''/>
 											
 										
 										
@@ -705,10 +998,10 @@ $(function(){
 					<ul class="diy_btn">
 						<li class="diy_btn1"><button>선물하기</button></li>
 						<li class="diy_btn2"><button>장바구니</button></li>
-						<li class="diy_btn4"><button><img src="/images/details/poke.png" alt="찜"></button></li>
+						<li class="diy_btn4"><button><img src="/images/details/poke.png" alt="찜" /></button></li>
 					</ul>
 					<form id="goodsDetailForm" action="/pay/orderInfo.do" method="get">
-						<input type="hidden" name="goodsList[0].goodsNo" value="1656437651217959">
+						<input type="hidden" name="goodsList[0].goodsNo" value="1656437651217959"/>
 					</form>
 				</div>
 			</div>
@@ -726,59 +1019,59 @@ $(function(){
 			<ul>
 				
 					<li>
-						<dl><dt><span></span><img src="/file/image/202111242010542820" alt="더블 바비큐치킨 샌드위치"></dt>
+						<dl><dt><span></span><img src="/file/image/202202081928112939" alt='스노우 화이트 치즈케이크' /></dt>
 							<dd>
-								<span>더블 바비큐치킨 샌드위치</span>
-								<input type="hidden" name="goodsNo" value="1637692487213914">
-								<input type="hidden" name="regDate" value="20211124">
+								<span>스노우 화이트 치즈케이크</span>
+								<input type="hidden" name="goodsNo" value="1643295311215319"/>
+								<input type="hidden" name="regDate" value="20220127"/>
 							</dd>
-							<dd>6,400원</dd>
+							<dd>27,000원</dd>
 						</dl>
 						<div class="shopnow"><a title="SHOP NOW">SHOP NOW</a></div>
 					</li>
 				
 					<li>
-						<dl><dt><span></span><img src="/file/image/202003040938302119" alt="시간의 정성 진(眞)카스테라"></dt>
+						<dl><dt><span></span><img src="/file/image/202202081934362941" alt='클래식쇼콜라 케이크' /></dt>
 							<dd>
-								<span>시간의 정성 진(眞)카스테라</span>
-								<input type="hidden" name="goodsNo" value="1567004483210104">
-								<input type="hidden" name="regDate" value="20190829">
+								<span>클래식쇼콜라 케이크</span>
+								<input type="hidden" name="goodsNo" value="1643295685215348"/>
+								<input type="hidden" name="regDate" value="20220127"/>
 							</dd>
-							<dd>15,000원</dd>
+							<dd>24,000원</dd>
 						</dl>
 						<div class="shopnow"><a title="SHOP NOW">SHOP NOW</a></div>
 					</li>
 				
 					<li>
-						<dl><dt><span></span><img src="/file/image/202106301846002677" alt="어머나! 생일챙겨 펭수 케이크"></dt>
+						<dl><dt><span></span><img src="/file/image/202207060911023106" alt='건강한 통밀 치킨롤 샌드위치' /></dt>
 							<dd>
-								<span>어머나! 생일챙겨 펭수 케이크</span>
-								<input type="hidden" name="goodsNo" value="1625046242211361">
-								<input type="hidden" name="regDate" value="20210630">
+								<span>건강한 통밀 치킨롤 샌드위치</span>
+								<input type="hidden" name="goodsNo" value="1647377417216345"/>
+								<input type="hidden" name="regDate" value="20220316"/>
 							</dd>
-							<dd>29,000원</dd>
+							<dd>4,900원</dd>
 						</dl>
 						<div class="shopnow"><a title="SHOP NOW">SHOP NOW</a></div>
 					</li>
 				
 					<li>
-						<dl><dt><span></span><img src="/file/image/202201261343462922" alt="마카롱(10개입)"></dt>
+						<dl><dt><span></span><img src="/file/image/202007101553032290" alt='시크릿 쥬쥬 별의여신 케이크' /></dt>
 							<dd>
-								<span>마카롱(10개입)</span>
-								<input type="hidden" name="goodsNo" value="1642519589215166">
-								<input type="hidden" name="regDate" value="20220119">
+								<span>시크릿 쥬쥬 별의여신 케이크</span>
+								<input type="hidden" name="goodsNo" value="1594302277215574"/>
+								<input type="hidden" name="regDate" value="20200710"/>
 							</dd>
-							<dd>21,000원</dd>
+							<dd>30,000원</dd>
 						</dl>
 						<div class="shopnow"><a title="SHOP NOW">SHOP NOW</a></div>
 					</li>
 				
 					<li>
-						<dl><dt><span></span><img src="/file/image/202202041650462931" alt="딸기&amp;치즈케이크(조각)"></dt>
+						<dl><dt><span></span><img src="/file/image/202010221506492393" alt='미니크라상' /></dt>
 							<dd>
-								<span>딸기&amp;치즈케이크(조각)</span>
-								<input type="hidden" name="goodsNo" value="1613507750219159">
-								<input type="hidden" name="regDate" value="20210217">
+								<span>미니크라상</span>
+								<input type="hidden" name="goodsNo" value="1603200939216962"/>
+								<input type="hidden" name="regDate" value="20201020"/>
 							</dd>
 							<dd>4,900원</dd>
 						</dl>
@@ -799,7 +1092,7 @@ $(function(){
 	</ul>
 	<div class="tabcontents">
 		<div class="prod_desc">
-			<p></p><p><b><span style="font-size: 12pt;">[제품명]</span></b>&nbsp; &nbsp; &nbsp;&nbsp;</p><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><p><b style="font-size: 12pt;">파리바게뜨&nbsp;</b><span style="font-size: 16px;"><b>상큼한 블루베리 쉬폰 케이크</b></span></p><p><span style="font-size: 16px;"><b><br></b></span></p><div align=""><div align=""><div align=""><div align=""><p><span style="font-size: 12pt;"><b>[제품 특징]</b></span></p><p><b><span style="font-size: 12pt;">-&nbsp;</span></b><span style="font-size: 16px;"><b>향긋한 블루베리시트와 상큼한 블루베리 콩포트가 어우러진 쉬폰케이크 (사이즈 1호, 15cm)</b></span></p><p><span style="font-size: 16px;"><b><br></b></span></p><p><span style="font-size: 12pt;"><b>[이용 안내]</b></span></p><p><span style="font-size: 16px;">- 본 상품은 예시 이미지로서 실제 상품과 다를 수 있습니다.</span></p><p><span style="font-size: 16px;">(파바앱에서 실시간으로 인근매장 상품재고를 확인 및 해피오더 앱에서 상품권 사용하실 수 있습니다.)</span></p><p><span style="font-size: 16px;">※ 파바앱 사용방법</span></p><p><span style="font-size: 16px;">① 앱 다운로드 및 접속 후 하단의 '상품소개' 버튼을 누르세요(다운로드 : http:// app.pbapp.co.kr/)</span></p><p><span style="font-size: 16px;">② 찾으시는 상품명을 입력 후 '주변매장 재고확인' 버튼을 누르세요)</span></p><p><span style="font-size: 16px;">※ 해피오더앱 사용방법</span></p><p><span style="font-size: 16px;">① 앱 다운로드 및 접속(해피오더 : https:// www. happyorder. co.kr/cg?am=main/home&amp;hide=Y)</span></p><p><span style="font-size: 16px;">② 상품 선택 후 결제단계에서 모바일상품권 영역에 ‘쿠폰 번호‘ 입력</span></p><p><span style="font-size: 16px;">- 물품형 상품권은 상품명에 기재된 물품으로 교환됩니다.</span></p><p><span style="font-size: 16px;">- 일부 상품의 과일 데코레이션은 계절에 따라 다른 대체 과일로 제공될 수 있습니다.</span></p><p><span style="font-size: 16px;">- 동일상품 교환이 불가한 경우 쿠폰가격 이상의 다른상품으로 교환 가능하며, 초과금액은 추가 지불하여야 합니다.</span></p><p><span style="font-size: 16px;">- 본 상품은 매장에 따라 판매가격이 상이할 수 있으며, 추가 금액 결제 후 교환 가능합니다.</span></p><p><span style="font-size: 16px;">- 일부 매장에서는 사용이 제한될 수 있습니다.</span></p><p>&nbsp;</p><p><span style="font-size: 12pt;"><b>[할인/적립/해피오더 사용 안내]</b></span></p><p><span style="font-size: 12pt;">- 제휴카드 할인/매장 할인행사/온라인쿠폰 중복적용 불가합니다.</span></p><p><span style="font-size: 12pt;">- 해피오더 사용 등은 교환처의 정책에 따릅니다.</span></p><p>&nbsp;</p><p><span style="font-size: 12pt;"><b>[이용 가능 매장]</b></span></p><p><span style="font-size: 12pt;">- 파리바게뜨와 파리크라상에서 사용 가능합니다.</span></p><p><span style="font-size: 16px;">- 일부 매장은 사용 불가하며, 방문 전 사전 문의 부탁드립니다.</span></p><p><span style="font-size: 16px;">- 인천공항, 백화점, 고속도로 휴게소 등의 특수 매장에서는 사용이 제한될 수 있습니다.</span></p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><p></p>
+			<p><p><b><span style="font-size: 12pt;">[제품명]</span></b>&nbsp; &nbsp; &nbsp;&nbsp;</p><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><div align=""><p><b style="font-size: 12pt;">파리바게뜨&nbsp;</b><span style="font-size: 16px;"><b>상큼한 블루베리 쉬폰 케이크</b></span></p><p><span style="font-size: 16px;"><b><br></b></span></p><div align=""><div align=""><div align=""><div align=""><p><span style="font-size: 12pt;"><b>[제품 특징]</b></span></p><p><b><span style="font-size: 12pt;">-&nbsp;</span></b><span style="font-size: 16px;"><b>향긋한 블루베리시트와 상큼한 블루베리 콩포트가 어우러진 쉬폰케이크 (사이즈 1호, 15cm)</b></span></p><p><span style="font-size: 16px;"><b><br></b></span></p><p><span style="font-size: 12pt;"><b>[이용 안내]</b></span></p><p><span style="font-size: 16px;">- 본 상품은 예시 이미지로서 실제 상품과 다를 수 있습니다.</span></p><p><span style="font-size: 16px;">(파바앱에서 실시간으로 인근매장 상품재고를 확인 및 해피오더 앱에서 상품권 사용하실 수 있습니다.)</span></p><p><span style="font-size: 16px;">※ 파바앱 사용방법</span></p><p><span style="font-size: 16px;">① 앱 다운로드 및 접속 후 하단의 '상품소개' 버튼을 누르세요(다운로드 : http:// app.pbapp.co.kr/)</span></p><p><span style="font-size: 16px;">② 찾으시는 상품명을 입력 후 '주변매장 재고확인' 버튼을 누르세요)</span></p><p><span style="font-size: 16px;">※ 해피오더앱 사용방법</span></p><p><span style="font-size: 16px;">① 앱 다운로드 및 접속(해피오더 : https:// www. happyorder. co.kr/cg?am=main/home&amp;hide=Y)</span></p><p><span style="font-size: 16px;">② 상품 선택 후 결제단계에서 모바일상품권 영역에 ‘쿠폰 번호‘ 입력</span></p><p><span style="font-size: 16px;">- 물품형 상품권은 상품명에 기재된 물품으로 교환됩니다.</span></p><p><span style="font-size: 16px;">- 일부 상품의 과일 데코레이션은 계절에 따라 다른 대체 과일로 제공될 수 있습니다.</span></p><p><span style="font-size: 16px;">- 동일상품 교환이 불가한 경우 쿠폰가격 이상의 다른상품으로 교환 가능하며, 초과금액은 추가 지불하여야 합니다.</span></p><p><span style="font-size: 16px;">- 본 상품은 매장에 따라 판매가격이 상이할 수 있으며, 추가 금액 결제 후 교환 가능합니다.</span></p><p><span style="font-size: 16px;">- 일부 매장에서는 사용이 제한될 수 있습니다.</span></p><p>&nbsp;</p><p><span style="font-size: 12pt;"><b>[할인/적립/해피오더 사용 안내]</b></span></p><p><span style="font-size: 12pt;">- 제휴카드 할인/매장 할인행사/온라인쿠폰 중복적용 불가합니다.</span></p><p><span style="font-size: 12pt;">- 해피오더 사용 등은 교환처의 정책에 따릅니다.</span></p><p>&nbsp;</p><p><span style="font-size: 12pt;"><b>[이용 가능 매장]</b></span></p><p><span style="font-size: 12pt;">- 파리바게뜨와 파리크라상에서 사용 가능합니다.</span></p><p><span style="font-size: 16px;">- 일부 매장은 사용 불가하며, 방문 전 사전 문의 부탁드립니다.</span></p><p><span style="font-size: 16px;">- 인천공항, 백화점, 고속도로 휴게소 등의 특수 매장에서는 사용이 제한될 수 있습니다.</span></p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></p>
 		</div>
 	</div>
 </div>
@@ -813,7 +1106,7 @@ $(function(){
 	</ul>
 	<div class="tabcontents">
 		<div class="prod_desc">
-			<pre><strong>[파리바게뜨] 상큼한 블루베리 쉬폰 케이크</strong><br><br>발행자: 주식회사 섹타나인  <br><br>문의전화: 해피콘 고객센터 1599-2799(상담시간: 평일 09시~18시, 공휴일 제외) <br><br>▷오프라인 매장 및 해피오더에서도 사용 가능합니다. <br>  픽업, 배달 모두 가능하며 일부 교환권(행사 구매 제품 등)에 대해 사용이 제한될 수 있습니다. <br>  (https://www.happyorder.co.kr) <br><br>▷환불/취소/유효기간 및 자세한 이용안내 <br>   https://www.happyconstore.com/main/selectPolicy.do?policyType=1<br><br><br></pre>
+			<pre><strong>[파리바게뜨] 상큼한 블루베리 쉬폰 케이크</strong><br><br>발행자: 주식회사 섹타나인  <br/><br/>문의전화: 해피콘 고객센터 1599-2799(상담시간: 평일 09시~18시, 공휴일 제외) <br/><br/>▷오프라인 매장 및 해피오더에서도 사용 가능합니다. <br/>  픽업, 배달 모두 가능하며 일부 교환권(행사 구매 제품 등)에 대해 사용이 제한될 수 있습니다. <br/>  (https://www.happyorder.co.kr) <br/><br/>▷환불/취소/유효기간 및 자세한 이용안내 <br/>   https://www.happyconstore.com/main/selectPolicy.do?policyType=1<br><br><br></pre>
 		</div>
 	</div>
 </div>
@@ -827,7 +1120,7 @@ $(function(){
 	</ul>
 	<div class="tabcontents">
 		<div class="prod_desc">
-			<pre><strong>[파리바게뜨] 상큼한 블루베리 쉬폰 케이크</strong><br><br>* 본 상품은 예시 이미지로써 실제 상품과 다를 수 있습니다. <br>* 사용 매장에서 책정한 판매가격에 따라, 일부 매장에서는 추가 금액 결제가 필요할 수 있습니다. <br>* 백화점 및 고속도로 휴게소 등의 특수매장에서는 사용이 제한될 수 있습니다.<br>* 물품형 상품권은 상품명에 기재된 물품으로 교환됩니다.<br>* 해당 모바일상품권은 파리바게뜨와 파리크라상에서만 사용가능합니다.<br>* 포인트 적립 및 제휴카드 할인 등은 교환처의 정책에 따릅니다.<br>* 본 상품은 별도의 지급보증 및 피해보상 보험계약체결 없이 자체 신용으로 발행되었습니다.<br>* 수신자는 고객센터를 통해 교환권의 수신거절을 요청할 수 있으며, 이 경우 구매자에게 수신거절에 대한 안내가 이루어집니다.<br><br><br></pre>
+			<pre><strong>[파리바게뜨] 상큼한 블루베리 쉬폰 케이크</strong><br><br>* 본 상품은 예시 이미지로써 실제 상품과 다를 수 있습니다. <br/>* 사용 매장에서 책정한 판매가격에 따라, 일부 매장에서는 추가 금액 결제가 필요할 수 있습니다. <br/>* 백화점 및 고속도로 휴게소 등의 특수매장에서는 사용이 제한될 수 있습니다.<br/>* 물품형 상품권은 상품명에 기재된 물품으로 교환됩니다.<br/>* 해당 모바일상품권은 파리바게뜨와 파리크라상에서만 사용가능합니다.<br/>* 포인트 적립 및 제휴카드 할인 등은 교환처의 정책에 따릅니다.<br/>* 본 상품은 별도의 지급보증 및 피해보상 보험계약체결 없이 자체 신용으로 발행되었습니다.<br/>* 수신자는 고객센터를 통해 교환권의 수신거절을 요청할 수 있으며, 이 경우 구매자에게 수신거절에 대한 안내가 이루어집니다.<br><br><br></pre>
 		</div>
 	</div>
 </div>
@@ -862,12 +1155,12 @@ $(function(){
 					<ul class="terms">
 						
 						
-							<li><a title="이용약관" data-param="1">이용약관</a></li>
+							<li><a title="이용약관" data-param="1" >이용약관</a></li>
 							<li><span>|</span></li>
 						
 						
 						
-							<li><a title="개인정보처리방침" data-param="2" class="bold">개인정보처리방침</a></li>
+							<li><a title="개인정보처리방침" data-param="2"  class="bold" >개인정보처리방침</a></li>
 							<li><span>|</span></li>
 						
 						
@@ -878,7 +1171,7 @@ $(function(){
 						
 						
 						
-							<li><a title="전자금융거래이용약관" data-param="103">전자금융거래이용약관</a></li>
+							<li><a title="전자금융거래이용약관" data-param="103" >전자금융거래이용약관</a></li>
 							<li><span>|</span></li>
 						
 						
@@ -887,36 +1180,18 @@ $(function(){
 			</div>
 
 			<div class="copyright">
-				<img src="/images/global/bt_ci.png" alt="하단CI" width="130" height="70">
+				<img src="/images/global/bt_ci.png" alt="하단CI" width="130" height="70" />
 				<p>
-					㈜섹타나인 | 대표 : 이경배 | 사업자등록번호: 113-86-10017 |<br>
+					㈜섹타나인 | 대표 : 이경배 | 사업자등록번호: 113-86-10017 |<br />
 					통신판매업신고: 제 2015-경기성남-1705호 | 서울특별시 서초구 남부순환로 2620 | TEL :
 					1599-2799
-					| E-mail : lee2011@spc.co.kr |<br>
-					호스팅 서비스 제공 : ㈜섹타나인<br>
-					<a id="bizCommPopOpenBtn" href="#" title="사업자정보 확인">사업자정보 확인 ▶</a><br> COPYRIGHTⓒ SPC GROUP.ALL RIGHTS RESERVED.
+					| E-mail : lee2011@spc.co.kr |<br />
+					호스팅 서비스 제공 : ㈜섹타나인<br />
+					<a id ="bizCommPopOpenBtn" href="#" title="사업자정보 확인">사업자정보 확인 ▶</a><br /> COPYRIGHTⓒ SPC GROUP.ALL RIGHTS RESERVED.
 				</p>
 			</div>
 		</div>
 	</div>
 
-
-
-<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Fwww.happyconstore.com" title="Twitter settings iframe" style="display: none;"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body>
-
-  
-  
- 
-  <header>
-    <h3>Header</h3>
-  </header>
-  <section class="main-wrapper">
-    <main>
-    </main>
-  </section>
-  <footer>
-    <h3>Footer</h3>
-  </footer>
 </body>
-
 </html>
