@@ -1,48 +1,46 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'NanumSquare', san-serif;
+body {
+        background-color:#fff;
+        line-height:1.4;
+        font-family: 'NanumSquare', sans-serif;
+  }
+h1 {
+  font-weight: bold;
+  font-size: 33px;
 }
-p{
-  font-family: 'Noto Sans KR', sans-serif;
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+.header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  text-align:center;
+  background-color:#c2c2c2;
 }
-  color: red;
-  letter-spacing:-0.05em;
-  word-spccing:0.3em;}
-p.subtitle {
-  font-family:'Noto Sans KR', sans-serif; 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.main-text {
-  font-weight: 200;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: -0.03em;
-  word-spacing: 0.2em;
-  line-height: 1.3em;
-}
- .div-margin {
-  width:500px;
-  margin: 0 auto;
-}
-.div-pad {
-  padding: 15px 30px 40px 50px;
-}
-.box-a {
-  width: 100px;
-  height: 100px;
-  background-color:red;
-}
-.box-b {
-  width: 100px;
-  height: 100px;
-  background-color:green;
-}
-.box-c {
-  width:100px;
-  height:100px;
-  background-color:blue;
+.footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
 }
