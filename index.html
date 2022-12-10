@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>현주 마켓</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
     <meta name="title" content="현주 마켓">
@@ -13,75 +14,70 @@
     <meta property="og:title" content="현주 마켓">
     <meta property="og:description" content="아동복 전문 쇼핑몰 현주 마켓입니다. 6세에서 13세까지 이쁜 아이들 옷이 있습니다.">
 </head>
+
 <body>
-  
-<header class="header">
-<img src="images/logo.png" height="50" alt="현주 마켓 로고">
-</header>
-
-<nav class="nav">
-<ul>
-  <li><a href="./kids-top.html">상의</a></li>
-  <li><a href="./kids-bottom.html">하의</a></li>
-  <li><a href="./kids-dress.html">드레스</a></li>
-  <li><a href="./kids-outer.html">아우터</a></li>
-</ul>
-</nav>
-
-<section>
-  <div style = "float : left; margin-right:10px;">
-    <img src="images/kids-indoor-wear.jpeg" width="180" height="280" alt="남자아이 실내복">
+  <div id="hyunju-container">
+    <header id="hyunju-header">
+      <img src="images/logo.png" width="412" height="56" alt="현주 마켓 로고">
+    </header>
+    <div id="hyunju-content">
+      <img src="images/kids-indoor-wear.jpeg" width="640" height="426" alt="남자아이 실내복">
+      <h1>남자아이 실내복</h1>
+      <section>  
+        <h2>가벼운 소재감과 편안한 착용감!</h2>
+        <p>현주 마켓만의 귀여운 컬러의 디자인으로 선보이는 실내 상하복 세트입니다.</p>
+      </section>
+      <label for="size-select">사이즈 선택</label>
+      <select name="size-selec">
+        <option value="">--사이즈를 선택하세요--</option>
+        <option value="xlarge">엑스라지</option>
+        <option value="large">라지</option>
+        <option value="small">스몰</option>
+      </select>
+      <button type="submit">구매하기</button>           
+    </div>   
+    <div id="hyunju-sidebar">
+      <h2>메뉴</h2>
+      <ul>
+        <li><a href="./kids-top.html">상의</a></li>
+        <li><a href="./kids-bottom.html">하의</a></li>
+        <li><a href="./kids-dress.html">드레스</a></li>
+        <li><a href="./kids-outer.html">아우터</a></li>
+      </ul>
+      <aside>
+      <h2>최근뉴스</h2>
+      <ul>
+        <li>[2022-11-20] <a href="#">블랙프라이데이 이벤트 20% 할인</a></li>
+        <li>[2022-12-08] <a href="#">남자 유니폼 입고</a></li>
+        <li>[2022-12-08] <a href="#">연말 배송 안내</a></li>
+      </ul>
+      </aside>     
+    </div>
+    
+    <div id="hyunju-footer">
+     <div class="content-wrapper">
+      <div class="content">
+      <div id="col1">
+       <h2>About us</h2>
+       <p>우리는 아이들에게 입기 편한 옷을 제조 유통하고 있습니다.</p>
+      </div>
+      <div id="col2">
+       <h2>Contact us</h2>
+       <p>문의사항 있으시면 언제든 연락해 주세요.<br><a href="mailto:hyunju@abc.com">hyunju@abc.com</a></p>
+     </div>
+     <div id="col3">
+      <h2>SNS</h2>
+      <p>현주마켓 SNS에 다양한 콘텐츠가 있습니다.<br><a href="https://www.facebook.com" target="_blank">Facebook</a> <a href="https://www.youtube.com" target="_blank">YouTube</a> 
+      <a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+    </div>
   </div>
-<h1>남자아이 실내복</h1>
-<section>  
-<h2>가벼운 소재감과 편안한 착용감!</h2>
-<p>현주 마켓만의 귀여운 컬러의 디자인으로 선보이는 실내 상하복 세트입니다.</p>
-</section>
-<section>  
-<h2>블랙프라이데이 할인이벤트</h2>
-<p>2023년 블랙프라이데이 할인이벤트를 놓치지 마세요.</p>
-<label for="size-select">사이즈 선택</label>
-    <select name="size-selec">
-    <option value="">--사이즈를 선택하세요--</option>
-    <option value="xlarge">엑스라지</option>
-    <option value="large">라지</option>
-    <option value="small">스몰</option>
-    </select>
-<button type="submit">구매하기</button>
-</section>
-</section>
-<br>
-<article class="row">
-  <div class="column">
-    <h2>양털 슬립온</h2>
-    <img src="images/kids-indoor-wear.jpeg" width="180" height="180" alt="남자아이 실내복">
-    <p>시선을 끌어들이는 신발</p>
+</div>      
+      <footer class="footer">
+        <address>경기도 안양시 동안구 시민대로 333</address>
+        <p>Copyright &copy; HYUNJU MARKET Co. ALL RIGHTS RESERVED.</p>
+      </footer>
+    </div>
   </div>
-  <div class="column">
-    <h2>기모 양말</h2>
-    <img src="images/kids-indoor-wear.jpeg" width="180" height="180" alt="남자아이 실내복">
-    <p>포인트 컬러 양말</p>
-  </div>
-  <div class="column">
-    <h2>산타 모자</h2>
-    <img src="images/kids-indoor-wear.jpeg" width="180" height="180" alt="남자아이 실내복">
-    <p>빨간 산타 모자</p>
-  </div>
-</airticle>
-<br>
-<aside>
-  <h2>최근뉴스</h2>
-  <ul>
-    <li>[2022-11-20] <a href="#">블랙프라이데이 이벤트 20% 할인</a></li>
-    <li>[2022-12-08] <a href="#">남자 유니폼 입고</a></li>
-    <li>[2022-12-08] <a href="#">연말 배송 안내</a></li>
-  </ul>
-</aside>
-<p><a href="https://www.youtube.com" target="_blank">현주마켓 YouTube 바로가기</a></p>
-  
-<footer class="footer">
-  <address>경기도 안양시 동안구 시민대로 333</address>
-  <p>Copyright &copy; HYUNJU MARKET Co. ALL RIGHTS RESERVED.</p>
-</footer>
 </body>
+
 </html>

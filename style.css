@@ -1,46 +1,83 @@
 body {
-        background-color:#fff;
-        line-height:1.4;
-        font-family: 'NanumSquare', sans-serif;
-  }
-h1 {
-  font-weight: bold;
-  font-size: 33px;
+  background-color:#fff;
+  line-height:1.4;
+  font-family: 'NanumSquare', sans-serif;
 }
-h2 {
-  font-weight: 400;
-  font-size: 22px;
+img {
+  max-width: 100%;
+  height: auto !important;
 }
-.header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
+.column {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
 }
-.nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:5px;
+.column div {
+  height: 150px;
+}
+#hyunju-container {
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+#hyunju-header {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align:center;
+  border: 1px solid #bcbcbc;
+  background-color:black;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
+#hyunju-content {
+  padding: 20px;
+  margin-bottom: 20px;
   text-align:center;
-  background-color:#c2c2c2;
+  border: 1px solid #bcbcbc;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#hyunju-sidebar {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #bcbcbc;
+}
+#hyunju-footer {
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+  background-color:#ccc;
 }
 .footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
+  color:black;
+  clear:both;
+  text-align:center;
+  padding:2px;
+}
+
+@media ( min-width: 481px ) {
+  #hyunju-container {
+  width: 1280px;
+}
+#hyunju-content {
+  width: 900px;
+  float: left;
+}
+#hyunju-sidebar {
+  width: 260px;
+  float: right;
+}
+#hyunju-footer {
+  clear: both;
+}
+.content-wrapper {
+  width: 100%;  
+}
+.content {
+  display: inline-flex;
+}  
+.content {
+  padding: 0.5em 0;
+  width: 100%;
+}
+.content > div {
+  box-sizing: border-box;
+  padding: 0 2%;
+  width: 33.33%;
+}
 }
